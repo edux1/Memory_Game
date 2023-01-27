@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Memory Game</title>
+		<link rel="stylesheet" href="memory_game.css"/>
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+		<script src="logic.js"></script>		
+	</head>
+	<body id="body">
+		<h1>Memory Game</h1>
+		<div>
+			<button onclick="init(8)" class="button" id="bt1">Easy</button>
+			<button onclick="init(12)" class="button" id="bt2">Medium</button>
+			<button onclick="init(16)" class="button" id="bt3">Hard</button>
+		</div>
+		<div>
+			<p><strong>Moves: </strong><span id="moves">0</span></p>
+			<p><strong>Time: </strong><span id="time">0:00</span></p>
+		</div>
+	</body>
+</html>
